@@ -110,7 +110,7 @@ body {
   --shadow-elevation-1: 0 1px 2px hsl(0deg, 0%, 0%, 0.1);
 
   /* BASE button */
-  --bg--action: var(--clr-off-white);
+  --bg-action: var(--clr-off-white);
   --bg-action-hover: hsl(var(--clr-neutral-hsl-0), 0.6);
   --bg-action-focus: var(--clr-neutral-0);
   --brd-action: hsl(var(--clr-neutral-hsl-700),0.1);
@@ -172,7 +172,7 @@ body {
     --shadow-elevation-1: none;
 
     /* BASE button */
-   --bg--action: var(--clr-neutral-700);
+   --bg-action: var(--clr-neutral-700);
    --bg-action-hover: hsl(var(--clr-neutral-hsl-0), 0.3);
    --bg-action-focus: var(--clr-neutral-600);
   --brd-action: hsl(var(--clr-neutral-hsl-0),0.15);
@@ -221,7 +221,7 @@ body {
   }
 }
 
-@media (max-width: 800px){
+@media (max-width: 50rem){
   body{
     padding: 1rem;
   }
@@ -245,7 +245,7 @@ body {
   box-shadow: var(--shadow-elevation-1);
 }
 
-@media (max-width: 800px){
+@media (max-width: 50rem){
 
   .page-header{
     padding: 0.6rem;
@@ -314,7 +314,7 @@ body {
 
 }
 
-@media (min-width: 800px){
+@media (min-width: 50rem){
   .extensions__header{
     grid-template-columns: 1fr auto;
     text-align: left;
@@ -339,7 +339,7 @@ body {
   font-size: var(--fs-600);
   color: var(--text-on-action);
   padding: 0.5rem 1.1rem;
-  background-color: var(--bg--action);
+  background-color: var(--bg-action);
   border-radius: 30px;
   box-shadow: var(--shadow-elevation-1);
   border: 1px solid var(--brd-action);
